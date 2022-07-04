@@ -1,0 +1,121 @@
+/* sm=600 */
+/* md=900 */
+/* lg=1200 */
+/* xl=1600 */
+
+@media screen and (min-width: 600px) {
+  .section__action__btn {
+    max-width: 30rem;
+    padding: 1.4rem;
+    flex-basis: 35%;
+  }
+
+  .section__action__container {
+    justify-content: center;
+  }
+  .section__action__btn.action__btn__primary {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section__action__container {
+    width: 70%;
+  }
+
+  .footer ul {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .menu__btn {
+    backdrop-filter: blur(16px);
+    background-color: hsla(0, 0%, 0%, 0.05);
+  }
+
+  .mobile{
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .desktop {
+    display: initial;
+  }
+
+  .header__nav__btn {
+    display: inline-block;
+  }
+
+  .header__left {
+    padding: 0 2rem;
+    margin: 0 3rem;
+  }
+
+  .header__right {
+    margin: auto 3rem;
+  }
+
+  .link__in__middle {
+    display: none;
+  }
+
+  .section__action__container {
+    width: 60%;
+  }
+
+  .footer ul {
+    width: 50%;
+  }
+
+  .header__middle{
+    left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer ul {
+    width: 40%;
+  }
+
+  .section__action__container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .section__1 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/9160c5a3-b818-42dd-bb98-b8597948c636/bvlatuR/std/1927x4096/M3-Homepage-Mobile-LHD") !important;
+  }
+
+  .section__2 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/3304be3b-dd0a-4128-9c26-eb61c0b98d61/bvlatuR/std/0x0/3304be3b-dd0a-4128-9c26-eb61c0b98d61") !important;
+  }
+
+  .section__3 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8138ba80-06f8-4bda-8bcd-a076a44b00f7/bvlatuR/std/1928x4096/Homepage-Model-S-Mobile-LHD") !important;
+  }
+
+  .section__4 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/7d0fc315-dd4c-42f3-b9e1-a98f488f1e9a/bvlatuR/std/1927x4096/Homepage-Model-X-Mobile-LHD") !important;
+  }
+
+  .section__5 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/066f19b7-d68e-45e2-8575-ad0a6f8375a8/bvlatuR/std/600x1576/_25-HP-SolarPanels-M") !important;
+  }
+
+  .section__6 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/20c666b9-d09b-4687-bb37-22c8500489c5/bvlatuR/std/750x850/HP-SR-Design-M") !important;
+  }
+
+  .section__7 {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/69095129-86c5-4f6c-a77a-740ceac04e82/bvlatuR/std/0x0/69095129-86c5-4f6c-a77a-740ceac04e82") !important;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .header__middle {
+    left: 7rem;
+  }
+}

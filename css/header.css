@@ -1,0 +1,119 @@
+.header {
+  height: 5rem;
+  position: fixed;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tds-site-nav-items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  white-space: nowrap;
+  position: relative;
+}
+
+.hover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 35px;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0;
+  transition: all cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+.tds-site-nav-items li:nth-child(1):hover ~ .hover {
+  opacity: 1;
+  width: 75px;
+  left: 0px;
+}
+
+.tds-site-nav-items li:nth-child(2):hover ~ .hover {
+  opacity: 1;
+  width: 75px;
+  left: 98px;
+}
+
+.tds-site-nav-items li:nth-child(3):hover ~ .hover {
+  opacity: 1;
+  width: 75px;
+  left: 196px;
+}
+
+.tds-site-nav-items li:nth-child(4):hover ~ .hover {
+  opacity: 1;
+  width: 75px;
+  left: 293px;
+}
+
+.tds-site-nav-items li:nth-child(5):hover ~ .hover {
+  opacity: 1;
+  width: 85px;
+  left: 390px;
+}
+
+.tds-site-nav-items li:nth-child(6):hover ~ .hover {
+  opacity: 1;
+  width: 100px;
+  left: 495px;
+}
+
+.header__left {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header__logo {
+  color: #171a20;
+  background: transparent;
+  block-size: 24px;
+  content: "";
+  display: block;
+  inline-size: calc(24px * 5);
+  max-inline-size: 100%;
+  min-block-size: 24px;
+  min-inline-size: 24px;
+  overflow: hidden;
+  text-indent: -9999px;
+  transition: color 0.33s ease;
+}
+
+.tds-site-nav-items.header__right li:nth-child(1):hover ~ .hover {
+  opacity: 1;
+  width: 60px;
+  left: 0px;
+}
+
+.tds-site-nav-items.header__right li:nth-child(2):hover ~ .hover {
+  opacity: 1;
+  width: 90px;
+  left: 70px;
+}
+
+.tds-site-nav-items.header__right li:nth-child(3):hover ~ .hover {
+  opacity: 1;
+  width: 60px;
+  left: 175px;
+}
+
+.header__nav__btn {
+  display: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem;
+  color: var(--secondary-color);
+}
+
+.menu__btn {
+  display: inline-block;
+}
+
+.tds-site-nav-items .header__nav__btn {
+  margin-right: 2rem;
+}
