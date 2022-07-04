@@ -59,8 +59,8 @@
 
 .tds-site-nav-items li:nth-child(6):hover ~ .hover {
   opacity: 1;
-  width: 100px;
-  left: 495px;
+  width: 105px;
+  left: 500px;
 }
 
 .header__left {
